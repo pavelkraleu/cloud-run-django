@@ -34,3 +34,8 @@ To optimize the response time during cold starts, I discovered that configuring 
 By implementing this approach, the waiting time for instances to become active significantly decreased.
 
 ![Warm Start Response Time](warm_start.png)
+
+In logs we can see something like that. In this case it took 9.6s to serve the request and health check succeeded after fifth try.  
+To improve that we could try to decrease the docker image size (currently 1.06GB) or some other steps to decrease image startup time.
+
+![Cloud Run Logs](logs.png)
