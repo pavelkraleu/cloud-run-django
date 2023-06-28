@@ -2,6 +2,8 @@
 
 I am particularly fond of Google Cloud Run, but there is limited information available on running Django applications on this service. In this article, I aim to share my experiences and insights gained from deploying Django on Cloud Run.
 
+All things I'm describing here can be seen in my [repository OptiFleet](https://github.com/pavelkraleu/greenhack-cars).
+
 ## Migrations
 
 During the migration process, it necessary to execute a series of commands, which collectively took several minutes to complete:
